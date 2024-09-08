@@ -680,6 +680,26 @@ button {
      display: none;
 }
 
+#myCarousel2 .carousel-indicators {
+     bottom: -70px;
+}
+
+#myCarousel2 .carousel-indicators li {
+     width: 20px;
+     height: 20px;
+     border-radius: 20px;
+     background: #111;
+}
+
+#myCarousel2 .carousel-indicators .active {
+     background: #8c8a8a;
+}
+
+#myCarousel2 .carousel-control-prev,
+#myCarousel2 .carousel-control-next {
+     display: none;
+}
+
 
 /** end clients section **/
 
@@ -837,3 +857,4 @@ ul.location_icon li a {
 .shop {
      margin-bottom: 90px;
 }
+
