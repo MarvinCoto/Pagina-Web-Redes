@@ -92,45 +92,40 @@
       </header>
       <!-- end header inner -->
       <!-- end header -->
-      <!-- contact section -->
-      <div id="contact" class="contact">
+      <!-- about section -->
+      <div class="about">
          <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <form id="request" class="main_form">
-                     <div class="row">
-                        <div class="col-md-12 ">
-                           <h3>Contact Us</h3>
-                        </div>
-                        <div class="col-md-12 ">
-                           <input class="contactus" placeholder="Name" type="type" name="Name"> 
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number"> 
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Email" type="type" name="Email">                          
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactusmess" placeholder="Message" type="type" Message="Name">
-                        </div>
-                        <div class="col-md-12">
-                           <button class="send_btn">Send</button>
-                        </div>
-                     </div>
-                  </form>
+            <div class="row d_flex">
+               <div class="col-md-5">
+                  <div class="about_img">
+                     <figure><img src="images/world.jpg" alt="#"/></figure>
+                  </div>
                </div>
-            </div>
-         </div>
-         <div class="container-fluid">
-            <div class="map_section">
-               <div id="map">
+               <div class="col-md-7">
+                  <div class="titlepage">
+                     <h2>¿Qué es un diagrama de red?</h2>
+                     <p>Un diagrama de red es una representación visual de una red de computadoras o telecomunicaciones. Muestra
+                         los componentes que conforman una red y cómo interactúan, incluidos enrutadores, dispositivos, hubs,
+                          cortafuegos, etc. Este diagrama de red muestra una red de área local (LAN).</p>
+                  </div>
+                  <a class="read_more" href="#">Ver más</a>
                </div>
             </div>
          </div>
       </div>
-      </div>
-      <!-- end contact section -->
+
+      
+      <br><br><br>
+
+      <center><h1>Laboratorio 6 - Elementos de red</h1></center>
+      <br>
+
+      <center><img src="images/diagramaLab6.png" class="img-fluid" alt="..."></center>
+
+      <br><br>
+
+
+      <!-- about section -->
       <!--  footer -->
       <footer>
          <div class="footer">
@@ -165,25 +160,5 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
-      <script>
-         // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-         // Australia.
-         function initMap() {
-           var map = new google.maps.Map(document.getElementById('map'), {
-             zoom: 11,
-             center: {lat: 40.645037, lng: -73.880224},
-             });
-         
-         var image = 'images/maps-and-flags.png';
-         var beachMarker = new google.maps.Marker({
-             position: {lat: 40.645037, lng: -73.880224},
-             map: map,
-             icon: image
-           });
-         }
-      </script>
-      <!-- google map js -->
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
-      <!-- end google map js --> 
    </body>
 </html>
