@@ -858,3 +858,7 @@ ul.location_icon li a {
      margin-bottom: 90px;
 }
 
+#presupuesto{
+     display: contents;
+}
+
