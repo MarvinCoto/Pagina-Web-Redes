@@ -700,6 +700,26 @@ button {
      display: none;
 }
 
+#myCarousel3 .carousel-indicators {
+     bottom: -70px;
+}
+
+#myCarousel3 .carousel-indicators li {
+     width: 20px;
+     height: 20px;
+     border-radius: 20px;
+     background: #111;
+}
+
+#myCarousel3 .carousel-indicators .active {
+     background: #8c8a8a;
+}
+
+#myCarousel3 .carousel-control-prev,
+#myCarousel3 .carousel-control-next {
+     display: none;
+}
+
 
 /** end clients section **/
 
